@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Public Sans;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo{
+    margin: 25px 5px;
+}
+
+.navbar-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 7px 10px;
+    font-size: 18px;
+}
+
+.navbar-main p:hover{
+    color: hsl(136, 65%, 51%);
+    border-bottom: 3px solid hsl(136, 65%, 51%);
+    cursor: pointer;
+}
+
+.navbar-invite{
+    background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+
+ h1, h2, h3{
+    color: hsl(233, 26%, 24%);
+    font-weight: 700;
+}
+
+
+.next-gen{
+    background-image: url(/images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    background-position-x: 700%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.next-gen .left{
+    margin: 150px;
+}
+
+.next-gen .right{
+    margin-left: 100px;
+}
+
+.next-gen .right img{
+    position: relative;
+    left: 0px; 
+    bottom: 0px;
+}
+
+.choose{
+    background-color: hsl(220, 16%, 96%);
+}
+
+.choose p, .next-gen p, .article p{
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+}
+
+.choose-top{
+    margin: 50px 120px;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 5px; 
+    margin-left: 70px;
+    margin-right: 10%;
+  }
+  
+  .card1 {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 50px 50px;
+    width: 200px;
+  }
+
+  .article{
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  .article-top{
+    margin-left: 120px;
+  }
+
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 5px;
+    border-radius: 8px;
+    margin: 50px 50px;
+    width: 200px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:hsl(233, 26%, 24%);
+  }
+
+  .footer-us div:hover{
+    color: hsl(136, 65%, 51%);
+  }
+
+   .footer-opp div:hover{
+    color: hsl(136, 65%, 51%);
+  }
+
+  .footer-icons, .footer-us, .footer-opp, .footer-invite{
+    margin: 20px 10px;
+    color: aliceblue;
+  }
+
+  @media screen and (max-width: 950px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  
+    .navbar-main {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .navbar-main p {
+      margin: 10px 0;
+    }
+  
+    .navbar-invite {
+      margin-top: 20px;
+    }
+  
+    .next-gen {
+      background-image: url(/images/bg-intro-mobile.svg);
+      background-repeat: no-repeat;
+      background-position-y: 80%; /* Adjusted from 90% */
+      background-position-x: 0%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .next-gen .left,
+    .next-gen .right {
+      margin: 20px;
+    }
+  
+    .next-gen .right img {
+      width: 100%;
+      position: relative; /* Adjusted from display: relative */
+      left: 10px; /* Adjusted left value */
+    }
+  
+    .choose,
+    .article {
+      padding: 20px;
+    }
+  
+    .choose p,
+    .next-gen p,
+    .article p {
+      font-size: 16px;
+    }
+  
+    .card-container {
+      grid-template-columns: 1fr;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .card1,
+    .card {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer div {
+      margin: 10px 0;
+    }
+  }
+  
