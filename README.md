@@ -8,6 +8,8 @@ Welcome to EasyBank's Exhilarating Landing Page! 🚀
 ## Introduction
 Get ready for a thrilling digital banking adventure with EasyBank! 🏦✨ Our landing page is not just a gateway; it's an immersive experience designed to revolutionize your financial journey.
 
+![image](https://github.com/YawBoah/Easybank-Landing-Page/assets/126890146/4f1e9ff9-48fb-41f4-a74d-1fca0e38b981)
+
 ## What Awaits You?
 🌈 **Next-Gen Digital Banking**: Dive into the future with our next-generation digital banking platform. Easy, intuitive, and packed with features!
 
