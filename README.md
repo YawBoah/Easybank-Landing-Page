@@ -22,6 +22,16 @@ Stay informed and entertained with our latest articles:
 3. **"Easybank on the Go"**: Your EasyBank card, your constant companion wherever life takes you! 🌏💳
 4. **"Beta Accounts Unleashed"**: Join the exclusive club! Our Beta accounts are live – request your invite now! 🚀🔐
 
+## 🚀 Live Demo
+- Solution URL: [Solution](https://github.com/YawBoah/Easybank-Landing-Page)
+- Live Site URL: [Live Demo](https://easybank-us.netlify.app/)
+
+
+## 🛠 Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+
 ## Let's Connect
 👋 **Join EasyBank's Community**: Connect with us on social media and be part of a vibrant community:
 - Facebook 📘
