@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/07899df6-0c39-4f96-a417-d105b9facdc7/deploy-status)](https://app.netlify.com/sites/easybank-us/deploys)
+
 # Frontend Mentor -  EasyBank Landing Page 🌐 solution
 
 This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). 
