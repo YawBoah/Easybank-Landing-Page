@@ -1,4 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/07899df6-0c39-4f96-a417-d105b9facdc7/deploy-status)](https://app.netlify.com/sites/easybank-us/deploys)
+![GitHub repo size](https://img.shields.io/github/repo-size/YawBoah/Easybank-Landing-Page)
+![GitHub issues](https://img.shields.io/github/issues/YawBoah/Easybank-Landing-Page)
+![GitHub stars](https://img.shields.io/github/stars/YawBoah/Easybank-Landing-Page)
+
 
 # Frontend Mentor -  EasyBank Landing Page 🌐 solution
 
